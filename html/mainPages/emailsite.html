@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+
     <div id="includeInHead-placeholder"></div>
     <script src="//code.jquery.com/jquery.min.js"></script>
     <script>
@@ -13,8 +14,9 @@
         });
     </script>
 </head>
+
 <body class="greenbluebgb">
-    
+
     <div id="includeInBody-placeholder"></div>
     <script src="//code.jquery.com/jquery.min.js"></script>
     <script>
@@ -22,15 +24,27 @@
             $("#includeInBody-placeholder").replaceWith(data);
         });
     </script>
-    
+
+
+    <div id="nav-placeholder"></div>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+        $.get("/html/globalHtmls/navbar.html", function (data) {
+            $("#nav-placeholder").replaceWith(data);
+        });
+    </script>
+
+
     <h1 class="center-all" style="padding-top: 15%;">
         kalydybarna@gmail.com
     </h1>
 
-    <input style="overflow: hidden; position: relative; right: 500px;" type="text" id="myemail"  value="kalydybarna@gmail.com"   >
+    <input style="overflow: hidden; position: relative; right: 500px;" type="text" id="myemail"
+        value="kalydybarna@gmail.com">
     <div class="center-all">
         <button onclick="copytext('myemail')" style="width: 50px; height: 50px;" class="fas fa-copy"></button>
     </div>
-    
+
 </body>
+
 </html>

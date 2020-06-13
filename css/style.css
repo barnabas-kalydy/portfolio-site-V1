@@ -14,3 +14,7 @@
     background: rgb(64,177,140);
     background: linear-gradient(90deg, rgba(64,177,140,1) 0%, rgba(34,83,203,1) 100%);
   }
+  .bg3{
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(156,25,199,1) 30%, rgba(69,252,225,1) 100%);
+  }
