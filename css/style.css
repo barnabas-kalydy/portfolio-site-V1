@@ -25,3 +25,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(156,25,199,1) 30%
   .whitetext{
     color: white;
   }
+  .bg4{
+    background: rgb(106,13,168);
+background: linear-gradient(90deg, rgba(106,13,168,1) 0%, rgba(168,26,214,1) 50%, rgba(13,241,207,1) 100%);
+  }
