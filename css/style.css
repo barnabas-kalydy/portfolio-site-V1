@@ -18,3 +18,10 @@
     background: rgb(131,58,180);
 background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(156,25,199,1) 30%, rgba(69,252,225,1) 100%);
   }
+  .blacktext{
+    color: black;
+  }
+  }
+  .whitetext{
+    color: white;
+  }
