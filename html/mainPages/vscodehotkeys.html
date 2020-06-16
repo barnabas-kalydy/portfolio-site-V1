@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotkeys</title>
+    
+    <div id="includeInHead-placeholder"></div>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+        $.get("/html/globalHtmls/includeInHead.html", function (data) {
+            $("#includeInHead-placeholder").replaceWith(data);
+        });
+    </script>
+</head>
+<body class="bg5">
+    <div id="includeInBody-placeholder"></div>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+        $.get("/html/globalHtmls/includeInBody.html", function (data) {
+            $("#includeInBody-placeholder").replaceWith(data);
+        });
+    </script>
+
+    <div id="nav-placeholder"></div>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+        $.get("/html/globalHtmls/navbar.html", function (data) {
+            $("#nav-placeholder").replaceWith(data);
+        });
+    </script>
+    <div style="text-align: center;">
+
+       
+            <p>
+                Ctrl+k+c => comment selected text
+            </p>
+            
+            <p>
+                Ctrl+k+u => uncomment selected text
+            </p>
+            
+            <p>
+                Alt+Up/Down => move the selected text up/down
+            </p>
+            
+            <p>
+                Alt+Shift+Up/Down => copy the selected text over/below to the text
+            </p>
+            <p>
+                Ctrl+s=> save the file
+            </p>
+            <p>
+                Ctrl+z/u=> unmake/make back the last process
+            </p>
+            <p>
+                Ctrl+ö=> open terminal in vscode
+            </p>
+
+
+
+        
+    </div>
+
+</body>
+</html>
