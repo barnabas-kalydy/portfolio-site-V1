@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotkeys</title>
+
+    <div id="includeInHead-placeholder"></div>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+        $.get("/html/globalHtmls/includeInHead.html", function (data) {
+            $("#includeInHead-placeholder").replaceWith(data);
+        });
+    </script>
+</head>
+
+<body class="bg5">
+    <div id="includeInBody-placeholder"></div>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+        $.get("/html/globalHtmls/includeInBody.html", function (data) {
+            $("#includeInBody-placeholder").replaceWith(data);
+        });
+    </script>
+
+    <div id="nav-placeholder"></div>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+        $.get("/html/globalHtmls/navbar.html", function (data) {
+            $("#nav-placeholder").replaceWith(data);
+        });
+    </script>
+    <div style="text-align: center;">
+
+
+        <p>
+            Ctrl+ü => comment/uncomment selected text
+        </p>
+        <p>
+            Ctrl+k+c => comment selected text
+        </p>
+
+        <p>
+            Ctrl+k+u => uncomment selected text
+        </p>
+
+        <p>
+            Alt+Up/Down => move the selected text up/down
+        </p>
+
+        <p>
+            Alt+Shift+Up/Down => copy the selected text over/below to the text
+        </p>
+        <p>
+            Ctrl+s=> save the file
+        </p>
+        <p>
+            Ctrl+z/u=> unmake/make back the last process
+        </p>
+        <p>
+            Ctrl+ö=> open terminal in vscode
+        </p>
+        <p>
+            Ctrl+Shift+Left/Right => select a word left/rigth to the cursor
+        </p>
+        <p>
+            Shift+Tab => deletes a tabulator
+        </p>
+        <p>
+            Home/End => sets the cursor on the begin or on the end of the selected line
+        </p>
+        <p>
+            Shift+Home/End => selects all the text from the cursor to the start/end of the line
+        </p>
+        <p>
+            Ctrl+d => selects next word from the selected one in the text
+        </p>
+        <p>
+            Ctrl+Shift+l => selects all from the selected word in this file
+        </p>
+        <p>
+            Ctrl+Left/Right => moves the cursor one word left/right
+        </p>
+        <p>
+            Ctrl+Enter => create new line below the current line independently from where the cursor is
+        </p>
+        <p>
+        </p>
+        <p>
+            Windows+d => minimise all windows and go to the desktop
+        </p>
+        <p>
+            Windows+UP => maximize current window
+        </p>
+        <p>
+            Windows+Left/Right => move current window left/right on the window
+        </p>
+        <p>
+            Ctrl+p => find files in current app
+        </p>
+        <p>
+            Shift+Del => cuts the line, that you can then insert or let it deleted
+        </p>
+        <p>
+            Shift+Insert => with this command you can insert the line cutted be the previous command
+        </p>
+        <p>
+            Shift+Alt+f => auto formats the text accorint to the code editor's dafaults
+        </p>
+        <p>
+            Shift+Click => will select all the text between the cursor and click 
+        </p>
+        <p>
+            Ctrl+Backspace => Delete the next word to the coursor
+        </p>
+        <p>
+            Ctrl+Backspace => Deletes the previous word from the cursor
+        </p>
+
+
+
+
+    </div>
+
+</body>
+
+</html>
