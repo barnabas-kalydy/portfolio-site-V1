@@ -1,1 +1,1 @@
-This is my website, here i just practicing website making.
+This was my first portfolio website, I leave it here just for nostalgia.
